@@ -1,0 +1,204 @@
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+  transition: all 0.2s; }
+
+body {
+  background-color: gray; }
+
+.main {
+  margin: 40px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px; }
+
+#cont2-1 {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px; }
+  #cont2-1 .cont2-1-1 {
+    margin: 0; }
+  #cont2-1 .cont2-1-2 {
+    display: flex;
+    margin: 0; }
+    #cont2-1 .cont2-1-2 img {
+      width: 25px;
+      height: 25px;
+      padding: 2px;
+      background-color: #eeeeee; }
+    #cont2-1 .cont2-1-2 button:hover {
+      box-shadow: 5px 5px 15px grey; }
+
+.cont1-3 {
+  display: flex; }
+  .cont1-3 .cont1-3-1 {
+    background-color: white;
+    border: 1px solid #d8d8d8;
+    margin: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    padding-bottom: 10px; }
+    .cont1-3 .cont1-3-1 .tx-1 {
+      padding-left: 10px; }
+    .cont1-3 .cont1-3-1 img {
+      padding-bottom: 10px;
+      width: 290px;
+      height: 200px; }
+    .cont1-3 .cont1-3-1 h5 {
+      margin-bottom: 2px; }
+    .cont1-3 .cont1-3-1 p {
+      color: grey; }
+    .cont1-3 .cont1-3-1:hover {
+      box-shadow: 5px 5px 15px grey; }
+
+.bt-gr {
+  display: flex;
+  background-color: #ebebeb;
+  color: white;
+  padding: 5px 15px;
+  margin: 20px 2px;
+  border-radius: 15px; }
+  .bt-gr .gr:hover {
+    box-shadow: 2px 2px 5px grey;
+    background-color: white;
+    border-radius: 16px;
+    columns: black; }
+  .bt-gr .gr:active {
+    outline: none;
+    background-color: #e6e6e6; }
+  .bt-gr .gr:focus {
+    outline: none; }
+  .bt-gr button {
+    margin: 5px;
+    padding: 2px;
+    outline: none;
+    color: #757575; }
+
+.pr-1 {
+  display: flex;
+  align-items: center; }
+  .pr-1 h6 {
+    padding: 5px;
+    margin: 5px 0; }
+  .pr-1 .bt-2 {
+    border: 1px #9e9e9e solid;
+    border-radius: 8px;
+    margin: 0 15px 0 80px; }
+    .pr-1 .bt-2 .btn {
+      padding: 2px 10px; }
+      .pr-1 .bt-2 .btn:hover {
+        box-shadow: 2px 2px 5px grey;
+        background-color: #e6fdb4; }
+  .pr-1 .bt-3 {
+    border: none;
+    background-color: #09d375;
+    color: white;
+    border-radius: 8px;
+    margin: 0 15px 0 80px;
+    outline: none; }
+    .pr-1 .bt-3 .btn {
+      padding: 2px 10px;
+      color: white; }
+      .pr-1 .bt-3 .btn:hover {
+        box-shadow: 2px 2px 5px grey;
+        background-color: rgba(9, 211, 117, 0.801); }
+
+.br-5 {
+  border: 1px solid #cecece;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 30px; }
+
+.cn-fl {
+  display: flex;
+  margin: 7px 10px;
+  justify-content: space-between; }
+  .cn-fl h6 {
+    margin: 10px 0; }
+
+.cn-ls {
+  margin: 10px;
+  padding: 10px 15px;
+  margin-top: 180px;
+  background-color: #dfdfdf;
+  border-radius: 8px; }
+  .cn-ls p {
+    font-size: 15px;
+    color: #686868;
+    margin: 0; }
+
+.user {
+  padding-bottom: 30px; }
+  .user p {
+    font-size: 15px;
+    color: #686868;
+    margin: 0 15px; }
+  .user .mn-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .user .mn-1 input, .user .mn-1 button {
+      border-radius: 0;
+      border: none;
+      height: 37px;
+      padding: 5px;
+      margin: 0; }
+    .user .mn-1 input {
+      width: 380px;
+      padding: 0 20px; }
+    .user .mn-1 button {
+      border: none;
+      background-color: white;
+      border-radius: 5px;
+      padding: 2px; }
+      .user .mn-1 button img {
+        width: 20px;
+        height: 20px;
+        margin: 5px 15px 15px 0; }
+    .user .mn-1 form {
+      height: 40px;
+      border: 1px solid grey;
+      background-color: white;
+      border-radius: 5px; }
+
+.num {
+  padding-bottom: 30px; }
+  .num p {
+    font-size: 15px;
+    color: #686868;
+    margin: 0 15px; }
+  .num .mn-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .num .mn-1 form {
+      height: 30px; }
+    .num .mn-1 input {
+      width: 425px;
+      height: 40px;
+      border-radius: 5px;
+      border: 1px solid grey;
+      padding: 0 20px; }
+
+.map {
+  padding: 0 15px; }
+  .map img {
+    width: 420px;
+    height: 170px; }
+
+.btn-last {
+  transition: all 5s;
+  margin: 15px; }
+  .btn-last button {
+    padding: 10px 40px;
+    background-color: rgba(7, 221, 114, 0.801);
+    color: white;
+    border: none;
+    border-radius: 8px; }
+    .btn-last button:hover {
+      box-shadow: 5px 5px 10px grey; }
+    .btn-last button:focus {
+      outline: none;
+      background-color: #ff8b1e; }
+
+/*# sourceMappingURL=style.css.map */
